@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src = " https://unpkg.com/sweetalert/dist/sweetalert.min.js "> </script> 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <title>Document</title>
+    
+    <style>
+        .container-form{
+            margin: 15%;
+            padding: 5%;
+            background-color: green;
+        }
+    </style>
+</head>
+<body>
+    <div class="container-form">
+        <h3>Ejercicio 3</h3>
+        <form id="Campos">
+            <div class="form-group">
+                <label for="InputName" class="col-sm-2 col-form-label">Nombre</label>
+                <input type="name" class="form-control" id="ingresarNombre" placeholder="Ingresar Nombre">
+            </div>
+
+            <div class="form-group">
+                <label for="InputLastname" class="col-sm-2 col-form-label">Apellido</label>
+                <input type="lastname" class="form-control" id="ingresarApellido" placeholder="Ingresar Apellido">
+            </div>
+            
+            <div class="form-group">
+                <label for="InputAddres" class="col-sm-2 col-form-label">Direccion</label>
+                <input type="addres" class="form-control" id="ingresarDireccion" placeholder="Ingresar Direccion">
+            </div>
+            
+            <div class="form-group">
+                <label for="InputTelephone" class="col-sm-2 col-form-label">Telefono</label>
+                <input type="telephone" class="form-control" id="ingresarTelefono" placeholder="Ingresar telefono">
+            </div>
+
+            <div class="form-group">
+                <label for="InputEmail" class="col-sm-2 col-form-label">Email</label>
+                <input type="email" class="form-control" id="ingresarEmail" placeholder="Ingresar email">
+            </div>
+
+            <div class="form-group">
+                    <button type="button" class="btn btn-primary" id="buttonSubmit">Enviar</button>
+                    <button type="button" class="btn btn-primary" id="buttonCancel">Cancelar</button>
+            </div>
+            
+        </form>
+    </div> 
+
+    <script src="formulario.js"></script>
+
+    
+</body>
+</html>
